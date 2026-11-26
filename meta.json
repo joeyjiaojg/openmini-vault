@@ -1,0 +1,9 @@
+{
+  "v": 1,
+  "kdf": "PBKDF2-HMAC-SHA256",
+  "iter": 200000,
+  "salt": "QF3Rj6ubPTsYjlL65IrvPQ==",
+  "catalog": "catalog.enc",
+  "updated": "2026-11-26",
+  "note": "全部文件 AES-256-GCM 加密；密钥由账号口令派生，本仓库不含任何密钥或明文。"
+}
