@@ -1,9 +1,16 @@
 {
-  "v": 1,
+  "v": 2,
   "kdf": "PBKDF2-HMAC-SHA256",
   "iter": 200000,
-  "salt": "QF3Rj6ubPTsYjlL65IrvPQ==",
   "catalog": "catalog.enc",
   "updated": "2026-11-26",
-  "note": "全部文件 AES-256-GCM 加密；密钥由账号口令派生，本仓库不含任何密钥或明文。"
+  "users": [
+    {
+      "name": "joey",
+      "salt": "Baa1+jwiA1aTC2ALUlRCAw==",
+      "iter": 200000,
+      "wrap": "T01WMczee+IV4KM0ekT1OVIAMBCZOTWRGGVoqfzLbVu+mJRRhpzFJBNt9I/gJ6tWgW2fdSarpJY+D0zTbEIOeg=="
+    }
+  ],
+  "note": "全部文件 AES-256-GCM 加密；主密钥随机生成，每个账号各有一份用口令派生的密钥信封，仓里不含密钥或明文。"
 }
