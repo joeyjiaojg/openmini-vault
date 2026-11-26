@@ -3,13 +3,13 @@
   "kdf": "PBKDF2-HMAC-SHA256",
   "iter": 200000,
   "catalog": "catalog.enc",
-  "updated": "2026-11-26",
+  "updated": "",
   "users": [
     {
       "name": "joey",
-      "salt": "5jO2pO+Mi/VLG5o+90ZBGg==",
+      "salt": "EjL1BdFeXrWYN4k1FrF54g==",
       "iter": 200000,
-      "wrap": "T01WMfTwJGWGUQTYN1cCvZ9n+8ojoapj5QLn+4V3u+mKs8LTpwZdIJq+UrneGXr4SaT1nfckN/vm+W05L26O/A=="
+      "wrap": "T01WMQ2MvcACvnGQkaoDSNFK7NVINo4zcadCrjkym2VKv+odRGxGayzTfwlmZVNmXijkk+WsDJYXoVU+dH6yoA=="
     }
   ],
   "note": "全部文件 AES-256-GCM 加密；主密钥随机生成，每个账号各有一份用口令派生的密钥信封，仓里不含密钥或明文。"
