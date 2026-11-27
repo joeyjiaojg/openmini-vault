@@ -7,9 +7,9 @@
   "users": [
     {
       "name": "joey",
-      "salt": "gPfJxg9u7YW/hKn11nXeGA==",
+      "salt": "HtV5I0AwZJUSHnChhS5dRQ==",
       "iter": 200000,
-      "wrap": "T01WMVOV5XoIGaysmgGxxamz3VeZ18uRhXSBkpFLVHsTsxw4ma6F05mwBqsJJClnVeY7SnmqIi4HfXdi/9GPvg=="
+      "wrap": "T01WMXqEjsy0bpN3ZuiGKOpAHumCCetCzaI1+Eazj4vUw+p9WuWj9Iy4lvpqjMlb/zdDSg+L/xBE+6JXG7HP4A=="
     }
   ],
   "note": "全部文件 AES-256-GCM 加密；主密钥随机生成，每个账号各有一份用口令派生的密钥信封，仓里不含密钥或明文。"
